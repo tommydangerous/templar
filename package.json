@@ -1,0 +1,42 @@
+{
+  "name": "Templar",
+  "version": "0.0.0",
+  "description": "Template for React, Redux, Express, Node, and Webpack.",
+  "author": "Tommy DANGerous",
+  "contributors": [
+    {
+      "name": "Tommy Dang",
+      "email": "quantumventuress@gmail.com"
+    }
+  ],
+  "scripts": {
+    "dev": "webpack-dev-server -d --color --port 8000 --progress --watch"
+  },
+  "main": "main.js",
+  "keywords": [
+    "express",
+    "node",
+    "react",
+    "redux",
+    "webpack"
+  ],
+  "dependencies": {
+    "autoprefixer": "^6.3.6",
+    "jquery": "^2.2.4",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-redux": "latest",
+    "redux": "latest"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "html-webpack-plugin": "^2.17.0",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
+  },
+  "license": "MIT"
+}
