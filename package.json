@@ -12,7 +12,7 @@
   "scripts": {
     "dev": "webpack-dev-server -d --color --port 8000 --progress --watch"
   },
-  "main": "main.js",
+  "main": "index.js",
   "keywords": [
     "express",
     "node",
@@ -26,7 +26,10 @@
     "react": "latest",
     "react-dom": "latest",
     "react-redux": "latest",
-    "redux": "latest"
+    "react-validators": "^0.1.2",
+    "redux": "latest",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0"
   },
   "devDependencies": {
     "babel-core": "^6.9.0",

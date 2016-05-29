@@ -1,7 +1,25 @@
+import { Provider } from 'react-redux';
 import React from 'react';
 
-export default function App() {
+// Stores
+import configureStore from '../stores/configureStore';
+
+// Components
+import App from '../components/App';
+
+const store = configureStore({
+  posts: {
+    loading: false,
+    posts: [],
+    subreddit: null,
+  },
+  todos: [],
+});
+
+export default function Root() {
   return (
-    <h1>Hey</h1>
+    <Provider store={store}>
+      <App />
+    </Provider>
   );
 }
